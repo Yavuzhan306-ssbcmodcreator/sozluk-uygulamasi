@@ -1,0 +1,18 @@
+yavuzhan_dict= {
+    "CRINGE": "Garip Ya Da Utandırıcı Bir Şey",
+    "LOL": "Komik Bir Şeye Verilen Cevap",
+    "NES MARIO": "Mario Ama 8-Bit",
+    "ANGRY": "Kızmak, Sinirlenmek",
+    "DEAD": "Ölmek",
+    "WEEGEE": "Weegee Is Original YTP Character Aka Luigi But Edited",
+    "MARIO TIME": "Mario Zamanı Olması",
+    "ITS A ME": "Kendini Tanırtmak",
+    "LUIGI WHERE DID YOU GO": "Its Lryics From Alone From Mario's Madness",
+}
+
+word= input("Anlamadığınız Bir Kelime Yazın (Hepsini Büyük Harflerle Yazın!): ")
+
+if word in yavuzhan_dict.keys():
+    print("Anlamı: ", yavuzhan_dict[word])
+else:
+    print("Bu Kelimeyi Henüz Sözlüğe Eklemedik... Ama Üzerinde Çalışıyoruz!")
